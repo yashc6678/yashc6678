@@ -1,0 +1,116 @@
+body {
+	font-family:cursive;
+	background-image:url('https://download.hipwallpaper.com/desktop/1920/1080/56/54/FJuSLz.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center center;
+	}
+
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 550px;
+	padding: 80px 40px;
+	box-sizing: content-box;
+	background-image: url('https://cdn.hipwallpaper.com/i/98/4/QTnvxU.png') ;
+	background-repeat:no-repeat;
+	margin:auto;
+}
+h1
+{
+	margin: 0px;
+	padding: 0 0 20px;
+	color: white;
+	text-align: center;
+	font-family: times new roman;
+	font-weight: bold;
+
+}
+.loginBox td
+{
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-size:120%;
+	color: white;
+
+}
+.loginBox input[type="radio"]
+{
+	width: 10%;
+	margin: 10px;
+	cursor: pointer;
+	transform: scale(1.3);
+}
+
+.loginBox input[type="text"],
+.loginBox textarea,
+.loginBox select
+{
+	width: 300px;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 90%;
+}
+.loginBox select option{
+	background-color:rgba(0,0,0,.5);
+}
+
+::placeholder
+{
+	font-family: Times New Roman;
+	color: rgba(255,255,255,.5);
+}
+
+.btn {
+	margin: 20px auto;
+	background-color: #002366;
+	font-size: 20px;
+  	color: white;
+  	padding: 10px 15px;
+	border: none;
+  	border-radius: 20px;
+  	cursor: pointer;
+	display:block;
+  	width: 50%;}
+.btn:hover{ box-shadow: 8px 10px 8px 0 black, 8px 10px 8px 0 white;
+	    transition-duration:0.5s;}
+
+.right {
+display: inline-block;
+position: absolute;
+right: 33px;
+top: 20px;
+}
+.right img {
+width: 60px;
+margin: 0px 6px;}
+
+.right img:hover {
+  transform: scale(1.5);
+  transition-duration:0.5s;
+}
+
+.right button{
+	border: none;
+	background:transparent;
+}
+
+.dlog{
+	margin-top:100px;
+	margin-left:850px;
+	width:30%;
+	background: rgba(0,0,0,.5);
+	border:1px dotted white;
+	color: white;
+}
